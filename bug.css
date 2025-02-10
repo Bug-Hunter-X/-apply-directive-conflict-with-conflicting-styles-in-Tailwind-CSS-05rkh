@@ -1,0 +1,1 @@
+This bug occurs when using Tailwind CSS's `@apply` directive with classes that have conflicting styles. For example, if you have two classes, one that sets `text-red-500` and another that sets `text-blue-500`, applying both with `@apply` will result in unexpected behavior. The order in which the classes are applied might determine the final outcome.
